@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Под</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Подбор Оптимального Вклада</h2>
+      <div id="calculator" class="main_block" title="calculate">
+        <div class="col">
+          <label for="startSum">Начальная сумма </label>
+          <input type="text" id="startSum" class="input" />
+        </div>
+        <div class="col">
+          <label for="monincrease">Сумма ежемесячного пополнения </label>
+          <input type="text" id="monincrease" class="input" />
+          <!--  increase per month -->
+        </div>
+        <div class="col">
+          <label for="rate">Срок вклада</label>
+          <input type="text" id="term" class="input" />
+        </div>
+        <div class="col">
+          <label for="term">Валюта вклада</label>
+          <select class="input" id="currency">
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+          </select>
+        </div>
+        <div class="calculate_button">
+          <button id="calculate">Подобрать</button>
+        </div>
+      </div>
+      <div class="table" id="briefcase">
+        <table></table>
+      </div>
+    </main>
+    <script src="./db.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

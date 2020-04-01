@@ -1,0 +1,142 @@
+body {
+    background-color: #beebe9;
+}
+h2{
+
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 5% auto 0;
+}
+
+.main_block {
+    display: flex;
+    min-width: 20%;
+    margin: 5% auto;
+    flex-direction: column;
+    width: 30%;
+    min-width: 10%;
+    padding: 1%;
+    border: 2px solid #ffe3ed;
+    border-radius: 5%;
+    background-color: #fffdf9;
+    
+}
+
+
+.col {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% ;
+}
+
+.input {
+    background-color: #beebe9;
+}
+
+label {
+    font-weight: bold;
+    
+}
+
+.calculate_button {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    margin: 5% auto 1%;
+
+    height:  50px;
+
+    
+}
+
+button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 100%;
+    height: 100%;
+    background-color: #8ac6d1;
+    font-weight: bold;
+    border-radius:  0 0 10px 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: cornflowerblue;
+}
+.block {
+    display: block;
+    color: red  ;
+    
+}
+
+select.input {
+    width: 37%;
+    cursor: pointer;
+}
+select.input:hover {
+    background:cornflowerblue;
+}
+
+#briefcase {
+    display: flex;
+    
+    padding: 0;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin-left: 30%;
+}
+
+table{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fffdf9;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 15px;
+    width: 100%;
+    margin: 0;
+
+}
+tbody {
+    width: 100%;
+    border-radius: 15px;
+}
+#briefcase tr{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    border: 1px solid #ffe3ed;
+    border-bottom: none;
+    border-top: none;
+    width: 100%;
+    
+}
+#briefcase tr th{
+    padding: 10px 0;
+    font-weight: 650;
+    font-size: 17px;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    width: 100%;
+}
+#briefcase tr td{
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+    font-size: 15px;
+}
+#briefcase tr:first-child{
+    background: #fffdf9;
+    border-top: 2px solid #8ac6d1;
+    border-bottom: 2px solid #8ac6d1;
+}
+#briefcase tr:last-child{
+    border-bottom: 2px solid #8ac6d1;
+}
